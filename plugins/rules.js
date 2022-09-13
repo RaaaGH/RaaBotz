@@ -9,8 +9,9 @@ let handler = async (m, { conn }) => conn.send3ButtonImg(m.chat, await (await fe
 6. Kami tidak bertanggung jawab atas apa yg user lakukan kepada bot ataupun sebaliknya
 7. Hindari konten pornografi (berupa gambar, dokumen, video, dan stiker)
 8. Bot yang sudah dikick dari group berarti masa sewa habis
+9. Kalau mau Join Grup Silakan,ini linknya raw/main/sound
 
-*Kebijakan Privasi:*
+*Kebijakan Privasi:*
  1. bot tidak akan merekam data riwayat chat user. 
  2. bot tidak akan menyebarkan nomor users. 
  3. bot tidak akan menyimpan media yang dikirimkan oleh users. 
