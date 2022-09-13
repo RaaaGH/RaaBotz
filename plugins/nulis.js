@@ -56,7 +56,7 @@ let handler = async (m, { conn, args }) => {
   spawn(_spawnprocess, _spawnargs)
     .on('error', e => conn.reply(m.chat, util.format(e), m))
     .on('close', () => {
-      conn.sendFile(m.chat, Buffer.concat(bufs), 'nulis.jpg', 'Hati² ketahuan:v', m)
+      conn.sendFile(m.chat, Buffer.concat(bufs), 'nulis.jpg', 'Nih kak Jangan lupa Join grup https://chat.whatsapp.com/E1TElUfSJY63Cs9WqNjEEC ', m)
     })
     .stdout.on('data', chunk => bufs.push(chunk))
 }
